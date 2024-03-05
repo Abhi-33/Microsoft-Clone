@@ -62,12 +62,5 @@ function log(){
 }
 login.addEventListener('click',log);
 
-let lists = document.querySelector('.C6');
-lists.forEach(addEventListener('click' ,()=>{
-    location.reload();
-}));
-// reloading logic 
-// const arr = [navItem1 , navItem2];
-// arr.forEach(addEventListener('click',()=>{
-// location.reload();
-// }));
+//reloading logic on clicking on each list element
+
